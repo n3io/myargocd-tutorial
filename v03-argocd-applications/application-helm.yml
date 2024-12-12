@@ -21,6 +21,8 @@ spec:
           #      parameters:
           #        - name: "replicaCount"
           #          value: "1"
+    helm:
+      releaseName: application-from-helm
     path: v03-argocd-applications/helm/nginx
     repoURL: https://github.com/n3io/myargocd-tutorial.git
     targetRevision: main
